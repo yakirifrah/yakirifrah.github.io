@@ -1,0 +1,68 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url('../src/img/anotherImg/background-game-page.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card {
+    flex-wrap: nowrap;
+    position: relative;
+    width: 110px;
+    height: 163px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.card div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card img {
+    position: absolute;
+    width: 110px;
+    height: 163px;
+    transform-style: preserve-3d;
+}
+
+.flipped .back {
+    display: none;
+}
+
+.flipped {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.style-title {
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.sccore {
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+}
+
+.won {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 30px;
+    color: #e67e22;
+}
+
+.td {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.table {
+    background-color: rgba(236, 240, 241, 0.8);
+}

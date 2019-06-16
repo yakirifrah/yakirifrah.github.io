@@ -1,0 +1,50 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url('../src/img/anotherImg/background-home-page.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+img {
+    width: 130px;
+    height: 130px;
+    margin-top: 13vh;
+    border-style: outset;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+h1.title-style {
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px 10px wheat;
+}
+
+.form-control,
+.form-control:focus {
+    color: black;
+    background: transparent;
+    height: 40px;
+    font-size: 19px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    font-family: 'Mali', cursive;
+
+}
+
+.form-control::placeholder,
+.form-control:focus::placeholder {
+    color: black;
+    font-family: 'Mali', cursive;
+
+}
